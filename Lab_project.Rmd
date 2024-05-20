@@ -251,6 +251,7 @@ This code defines a vector top_10_names that contains the 10 most common pet nam
 
 
 `b. Plot the counts of the pet names (animal_name) in top_10_names
+The relationship between the proportion of cats with a given name and the proportion of dogs with the same name is negative. In the context of the data, this negative relationship means that as the proportion of cats with a given name increases, the proportion of dogs with the same name tends to decrease, and vice versa. This suggests an inverse relationship in the popularity of names between cats and dogs in the dataset.
 ```{r}
 top_10_names <- seattlepets %>% 
 filter(animal_name %in% c( "Lucy"  , "Charlie" , "Luna" , "Bella" , "Max"    , 
